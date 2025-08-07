@@ -87,7 +87,7 @@ README.md
 - [gTTS](https://pypi.org/project/gTTS/)
 - [ElevenLabs](https://elevenlabs.io/)
 - [OpenAI Whisper](https://github.com/openai/whisper)
-- Help with [AI with Hussan YouTube channel](https://www.youtube.com/@AIwithHussan)
+- Help with [AI with Hassan YouTube channel](https://www.youtube.com/@AI.with.Hassan)
 
 ---
 
