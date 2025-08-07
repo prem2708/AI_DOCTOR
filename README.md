@@ -91,6 +91,3 @@ README.md
 
 ---
 
-## 📜 License
-
-MIT License. For educational and research use only. Not for real medical diagnosis.
