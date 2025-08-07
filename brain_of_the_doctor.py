@@ -18,8 +18,12 @@ def encode_image(image_path):
 #Step3: Setup Multimodal LLM 
 from groq import Groq
 
-query="Is there something wrong with my face?"
-model="llama-3.3-70b-versatile"
+
+# Use PORT environment variable for deployment platforms like Render
+import os
+query = "Is there something wrong with my face?"
+model = "llama-3.3-70b-versatile"
+port = int(os.environ.get("PORT", 7860))  # Use this port when starting your server
 
 def analyze_image_with_query(query, model, encoded_image):
     client=Groq()  
